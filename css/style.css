@@ -1,0 +1,442 @@
+:root {
+    --black-color: #333;
+    --hover-color: #32d809;
+    --white-color: #fff;
+    --primary-color: #0a1eef;
+    --outline-color: #4ce7739f;
+    --outline-bg-color: #5f5de2;
+    --span-color: #6c276e;
+    --light-ash: #eee;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.btn {
+    background-color: transparent;
+    padding: 5px 10px;
+    color: var(--white-color);
+    border: 1px solid var(--outline-color);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: var(--hover-color);
+}
+
+span {
+    color: var(--span-color);
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--light-ash);
+}
+
+/* Header style */
+.main-header {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/navbar_image.jpg) no-repeat center center/cover;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.logo h3 {
+    font-size: 2.5rem;
+    color: var(--hover-color);
+    margin-left: 2.5rem;
+    cursor: pointer;
+}
+
+.logo h3:hover {
+    opacity: 0.8;
+}
+
+.navbar {
+    padding-left: .8rem;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+
+.navbar ul li {
+    left: 50%;
+    padding-top: 1.2rem;
+}
+
+.navbar ul li a {
+    margin-left: 3rem;
+    font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid var(--primary-color);
+    opacity: 0.9;
+}
+
+.hire {
+    left: 75%;
+    padding-top: 2rem;
+    padding-left: 6rem;
+}
+
+.hire a {
+    text-align: center;
+}
+
+.content {
+    top: 40%;
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.content h1 {
+    font-size: 6rem;
+    padding: 5px 12px;
+}
+
+.content h5 {
+    letter-spacing: 2px;
+    padding-top: 1.3rem;
+}
+
+.social {
+    padding-top: 1.2rem;
+}
+
+.social i {
+    margin: 8px;
+    font-size: 1.5rem;
+}
+
+.social i:hover {
+    opacity: 0.8;
+}
+
+/* about styling */
+#about {
+    width: 100%;
+    background-color: var(--black-color);
+}
+
+.about {
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    width: 100%;
+    padding: 12px;
+}
+
+.column,
+.column-1 img {
+    width: 100%;
+}
+
+
+.column-2 h1 {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    color: var(--white-color);
+    border-bottom: 3px solid var(--hover-color);
+}
+
+.details {
+    margin: 1rem;
+    color: var(--white-color);
+}
+
+.details,
+.name {
+    margin-bottom: .90rem;
+}
+
+.details .name h5 {
+    font-size: .99rem;
+    color: #cc36c0b2;
+}
+
+.details .name p {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* Skills */
+#skills {
+    width: 100%;
+    margin: auto;
+    background-color: var(--light-ash);
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    border-bottom: 3px solid #32d809;
+}
+
+.skill-icon {
+    display: flex;
+}
+
+.card {
+    width: 12.5%;
+    display: block;
+    margin-left: .65rem;
+    margin-top: 1rem;
+    background-color: var(--black-color);
+    border-radius: 8px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.card i {
+    font-size: 2rem;
+    color: var(--white-color);
+    margin-top: 5px;
+    margin-left: .81rem;
+    margin-right: .6rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.card p {
+    color: var(--white-color);
+    text-align: center;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    padding-left: .2rem;
+    padding-right: .2rem;
+}
+
+/* Project style */
+.project {
+    width: 100%;
+    background-color: var(--black-color);
+    margin-top: 5px;
+}
+
+.proj-1 {
+    width: 100%;
+    margin-left: .6rem;
+}
+
+.proj-1 img {
+    width: 100%;
+}
+
+.proj-1 h1 {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.proj-1 p {
+    color: var(--hover-color);
+    letter-spacing: 2px;
+    padding: 5px 0px;
+}
+
+/* footer style */
+.footer {
+    margin: .05rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.footer i {
+    color: var(--primary-color);
+}
+
+/* Tablet pad */
+@media screen and (max-width: 768px) {
+    .main-header {
+        display: block;
+        width: 100vw;
+        height: 53vh;
+        background: center/cover center/cover;
+        overflow: hidden;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-container,
+    .logo h1 {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+    .navbar ul li a {
+        display: inline;
+        padding: 5px;
+        text-align: center;
+        margin-left: 3rem
+    }
+
+    .hire {
+        display: none;
+    }
+
+    .content {
+        display: block;
+        font-size: 1.2rem;
+        word-wrap: break-word;
+    }
+
+    .content h1 {
+        padding-right: 40%;
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+
+    .content h3 {
+        text-align: center;
+        padding-right: 40%;
+    }
+
+    .content h5 {
+        text-align: center;
+        padding-right: 40%;
+    }
+
+    .content p {
+        padding-left: 2rem;
+        padding-right: 40%;
+        overflow: hidden;
+    }
+
+    .content,
+    .social {
+        margin-right: 35%;
+        padding-bottom: 30px;
+    }
+
+    /* about */
+    .column-1 img {
+        height: 480px;
+    }
+
+    /* skills */
+    .skill-icon {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card i {
+        margin-left: 45%;
+    }
+
+    /* project */
+    .row {
+        display: block;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .proj-1 p {
+        text-align: center;
+    }
+
+}
+
+/*  mobile phone */
+@media screen and (max-width: 412px) {
+    .main-header {
+        display: block;
+        min-width: 393px;
+        max-width: 412px;
+        height: 60vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hire {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        color: var(--white-color);
+        margin-left: 4rem;
+        margin-top: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .content {
+        margin-right: 40%;
+    }
+
+    .content h1 {
+        padding-right: 65%;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .content h3 {
+        padding-right: 65%;
+    }
+
+    .content h5 {
+        padding-right: 65%;
+    }
+
+    .content p {
+        padding-left: .35rem;
+        padding-right: 68%;
+        word-wrap: break-word;
+    }
+
+    .social {
+        padding-right: 30%;
+    }
+}
