@@ -448,6 +448,11 @@ body {
     .social {
         padding-right: 30%;
     }
+
+    /* footer */
+    .footer {
+        font-size: .80rem;
+    }
 }
 
 @media screen and (max-width: 360px) {}
