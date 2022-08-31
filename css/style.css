@@ -24,6 +24,10 @@ a {
     color: var(--white-color);
 }
 
+.bar {
+    display: none;
+}
+
 .btn {
     background-color: transparent;
     padding: 5px 10px;
