@@ -389,11 +389,15 @@ body {
 
 /*  mobile phone */
 @media screen and (max-width: 412px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .main-header {
         display: block;
         min-width: 393px;
         max-width: 412px;
-        height: 60vh;
+        height: 69vh;
     }
 
     .navbar {
@@ -440,3 +444,5 @@ body {
         padding-right: 30%;
     }
 }
+
+@media screen and (max-width: 360px) {}
